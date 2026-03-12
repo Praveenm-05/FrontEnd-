@@ -1,0 +1,11 @@
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+form {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 12px;
+}
