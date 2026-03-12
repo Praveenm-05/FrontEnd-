@@ -29,8 +29,8 @@ function Footer() {
 
           <div className="col-md-3">
             <h6>Contact</h6>
-            <p>Stylish Online Store</p>
-            <p>contact@yourwebsite.com</p>
+            <p>PraveenStylish Store</p>
+            <p>contact@praveenstyles.com</p>
           </div>
 
         </div>

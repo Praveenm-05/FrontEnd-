@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+<Link to="/register">Login</Link>
 
 function TopBar() {
   return (
@@ -16,7 +18,17 @@ function TopBar() {
         </div>
 
         <div>
-          Contact | Cart | Login
+          <Link to="/contact" className="me-3 text-dark text-decoration-none">
+            Contact
+          </Link>
+
+          <Link to="/cart" className="me-3 text-dark text-decoration-none">
+            Cart
+          </Link>
+
+          <Link to="/register" className="text-dark text-decoration-none">
+            Login
+          </Link>
         </div>
 
       </div>

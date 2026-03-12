@@ -35,7 +35,7 @@ function HeroSection() {
             alt="shoe"
             className="img-fluid rounded hero-img"
           />
-
+        
         </div>
 
       </div>
