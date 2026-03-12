@@ -2,10 +2,15 @@ import React from "react";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-white shadow-sm">
+    <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
       <div className="container">
 
-        <a className="navbar-brand fw-bold">Stylish</a>
+        {/* Logo */}
+        <a className="navbar-brand fw-bold logo-text">
+          PraveenStylish
+        </a>
+
+        {/* Mobile Toggle */}
 
         <button
           className="navbar-toggler"
@@ -15,32 +20,43 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
+        {/* Menu */}
+
         <div className="collapse navbar-collapse" id="menu">
 
           <ul className="navbar-nav mx-auto">
 
             <li className="nav-item mx-2">
-              <button className="btn btn-outline-dark">Home</button>
+              <button className="nav-btn">Home</button>
             </li>
 
             <li className="nav-item mx-2">
-              <button className="btn btn-outline-dark">Men</button>
+              <button className="nav-btn">Men</button>
             </li>
 
             <li className="nav-item mx-2">
-              <button className="btn btn-outline-dark">Women</button>
+              <button className="nav-btn">Women</button>
             </li>
 
             <li className="nav-item mx-2">
-              <button className="btn btn-outline-dark">Shop</button>
+              <button className="nav-btn">Shop</button>
             </li>
 
           </ul>
 
-          <div>
+          {/* Icons */}
+
+          <div className="nav-icons">
+
             <i className="bi bi-person me-3"></i>
-            <i className="bi bi-cart me-3"></i>
+
+            <div className="cart-icon me-3">
+              <i className="bi bi-cart"></i>
+              {/* <span className="cart-badge">Cart</span> */}
+            </div>
+
             <i className="bi bi-search"></i>
+
           </div>
 
         </div>

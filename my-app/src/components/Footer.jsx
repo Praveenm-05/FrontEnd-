@@ -12,9 +12,8 @@ function Footer() {
 
           <div className="col-md-3 mb-4">
             <h4 className="fw-bold">PraveenStylish</h4>
-            <p>
-              Modern fashion store with premium shoes and clothing.
-              Discover the latest trends with stylish collections.
+            <p className="footer-desc">
+               With a diverse portfolio of Apparel, Footwear & Accessories for Men, Women & Kids, we cater to fashion-conscious millennials and tech-savvy young families alike
             </p>
 
             <div className="social-icons">

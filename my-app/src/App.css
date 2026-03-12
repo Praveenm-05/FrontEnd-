@@ -58,3 +58,122 @@ form {
 .social-icons i:hover {
   color: #ffc107;
 }
+.topbar {
+  background: #f8f9fa;
+  font-size: 14px;
+}
+
+/* Links */
+
+.topbar-links a {
+  color: #333;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.topbar-links a:hover {
+  color: #ffc107;
+}
+
+/* Login Button */
+
+.login-btn {
+  padding: 5px 12px;
+  border: 1px solid #333;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background: #333;
+  color: white !important;
+}
+
+/* Social Icons */
+
+.topbar-icons i {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.topbar-icons i:hover {
+  color: #ffc107;
+}
+/* Logo */
+
+.logo-text {
+  font-size: 24px;
+  color: #111;
+}
+
+/* Navigation buttons */
+
+.nav-btn {
+  border: none;
+  background: transparent;
+  font-weight: 500;
+  padding: 6px 14px;
+  transition: 0.3s;
+}
+
+.nav-btn:hover {
+  background: #111;
+  color: white;
+  border-radius: 20px;
+}
+
+/* Icons */
+
+.nav-icons i {
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-icons i:hover {
+  color: #ffc107;
+}
+
+/* Cart badge */
+
+.cart-icon {
+  position: relative;
+  display: inline-block;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  background: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 5px;
+  border-radius: 50%;
+}
+.featured-card {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.featured-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.15);
+}
+
+.featured-img {
+  overflow: hidden;
+}
+
+.featured-img img {
+  transition: transform 0.4s ease;
+}
+
+.featured-card:hover img {
+  transform: scale(1.08);
+}
+.footer-desc {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.7;
+}
