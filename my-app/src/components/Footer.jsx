@@ -2,37 +2,85 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="bg-light py-5 mt-5">
+    <footer className="footer-section text-light pt-5">
 
       <div className="container">
 
         <div className="row">
 
-          <div className="col-md-3">
-            <h6>Info</h6>
-            <p>Track Order</p>
-            <p>Blog</p>
-            <p>Privacy Policy</p>
+          {/* Brand */}
+
+          <div className="col-md-3 mb-4">
+            <h4 className="fw-bold">PraveenStylish</h4>
+            <p>
+              Modern fashion store with premium shoes and clothing.
+              Discover the latest trends with stylish collections.
+            </p>
+
+            <div className="social-icons">
+              <i className="bi bi-facebook me-3"></i>
+              <i className="bi bi-instagram me-3"></i>
+              <i className="bi bi-twitter me-3"></i>
+              <i className="bi bi-youtube"></i>
+            </div>
           </div>
 
-          <div className="col-md-3">
-            <h6>About</h6>
-            <p>History</p>
-            <p>Our Team</p>
+          {/* Info */}
+
+          <div className="col-md-3 mb-4">
+            <h6 className="fw-bold">Info</h6>
+            <ul className="footer-links">
+              <li>Track Order</li>
+              <li>Blog</li>
+              <li>Privacy Policy</li>
+              <li>Terms & Conditions</li>
+            </ul>
           </div>
 
-          <div className="col-md-3">
-            <h6>Popular</h6>
-            <p>Prices Drop</p>
-            <p>Best Sales</p>
+          {/* About */}
+
+          <div className="col-md-3 mb-4">
+            <h6 className="fw-bold">About</h6>
+            <ul className="footer-links">
+              <li>History</li>
+              <li>Our Team</li>
+              <li>Careers</li>
+              <li>Stores</li>
+            </ul>
           </div>
 
-          <div className="col-md-3">
-            <h6>Contact</h6>
-            <p>PraveenStylish Store</p>
-            <p>contact@praveenstyles.com</p>
+          {/* Newsletter */}
+
+          <div className="col-md-3 mb-4">
+            <h6 className="fw-bold">Subscribe</h6>
+
+            <p>Get the latest offers and discounts.</p>
+
+            <div className="input-group">
+              <input
+                type="email"
+                className="form-control"
+                placeholder="Your Email"
+              />
+              <button className="btn btn-warning">
+                Subscribe
+              </button>
+            </div>
+
+            <p className="mt-3 small">
+              contact@praveenstyles.com
+            </p>
+
           </div>
 
+        </div>
+
+        {/* Bottom Section */}
+
+        <div className="text-center border-top pt-3 mt-4">
+          <p className="mb-0">
+            © 2026 PraveenStylish Store | All Rights Reserved
+          </p>
         </div>
 
       </div>

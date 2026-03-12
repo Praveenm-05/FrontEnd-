@@ -1,6 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Register from "./pages/Register";
+import React from "react";
+import "./App.css";
 
 function App() {
   return (

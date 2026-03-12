@@ -16,8 +16,8 @@ function Home() {
       <HeroSection />
       <DiscountBanner />
       <FeaturedProducts />
-      <ContactForm />
       <LatestProducts />
+      <ContactForm />
       <Footer />
     </>
   );

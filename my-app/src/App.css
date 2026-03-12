@@ -9,3 +9,52 @@ form {
   padding: 30px;
   border-radius: 12px;
 }
+.product-card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+}
+
+.product-img-wrapper {
+  overflow: hidden;
+}
+
+.product-img-wrapper img {
+  transition: transform 0.4s ease;
+}
+
+.product-card:hover img {
+  transform: scale(1.08);
+}
+.footer-section {
+  background: #111;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer-links li:hover {
+  color: #ffc107;
+}
+
+.social-icons i {
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social-icons i:hover {
+  color: #ffc107;
+}
